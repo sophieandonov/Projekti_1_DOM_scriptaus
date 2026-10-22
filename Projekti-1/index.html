@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinotehtävät</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>Dinosaurusten Tehtävälista</h1>
+    </header>
+
+    <main class="container">
+        <section class="todo-card">
+            <h2>Päivän tehtävät</h2>
+
+            <form id="todoForm" class="todo-form">
+                <input 
+                    type="text" 
+                    id="todoInput" 
+                    name="todoInput" 
+                    placeholder="Kirjoita uusi tehtävä..."
+                >
+                <button type="submit" id="addButton">Lisää</button>
+            </form>
+
+            <ul id="todoList" class="todo-list">
+                <li class="todo-item">
+                    <input type="checkbox" class="todo-checkbox">
+                    <span class="todo-text">Syötä tuoreita lehtiä Brontosaurukselle</span>
+                    <button class="delete-btn">Poista</button>
+                </li>
+
+                <li class="todo-item">
+                    <input type="checkbox" class="todo-checkbox">
+                    <span class="todo-text">Tarkista T-Rexin aitauksen turvaverkot</span>
+                    <button class="delete-btn">Poista</button>
+                </li>
+
+                <li class="todo-item">
+                    <input type="checkbox" class="todo-checkbox">
+                    <span class="todo-text">Harjaa Triceratopsin sarvet</span>
+                    <button class="delete-btn">Poista</button>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
