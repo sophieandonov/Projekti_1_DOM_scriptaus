@@ -26,7 +26,7 @@ Esimerkki kuvan lisäämisestä:
 
 ## Verkkolinkit
 
-- **Julkaistu sovellus:** [Lisää tähän GitHub Pages -osoite](https://github.com/sophieandonov/Projekti_1_DOM_scriptaus)
+- **Julkaistu sovellus:** [Lisää tähän GitHub Pages -osoite](http://github.com/sophieandonov/Projekti_1_DOM_scriptaus)
 - **GitHub-repositorio:** [Lisää tähän repositorion osoite](https://github.com/sophieandonov/Projekti_1_DOM_scriptaus.git)
 
 ## Tietoja sovelluksesta
